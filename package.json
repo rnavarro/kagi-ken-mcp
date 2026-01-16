@@ -31,7 +31,7 @@
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
-    "kagi-ken": "github:czottmann/kagi-ken#1.2.0",
+    "kagi-ken": "github:rnavarro/kagi-ken",
     "zod": "^3.22.0"
   },
   "repository": {
