@@ -2,9 +2,11 @@
 
 This file provides guidance to LLM agents when working with code in this repository.
 
-## Common Commands
+## Project
 
-### Development
+kagi-ken-mcp is an MCP (Model Context Protocol) server providing Kagi search and summarization tools to AI assistants. It wraps the [kagi-ken](https://github.com/rnavarro/kagi-ken) library. Forked from `czottmann/kagi-ken-mcp`.
+
+## Commands
 ```bash
 npm install          # Install dependencies
 npm start           # Run the MCP server

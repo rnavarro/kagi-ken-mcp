@@ -36,10 +36,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/czottmann/kagi-ken-mcp.git"
+    "url": "git+https://github.com/rnavarro/kagi-ken-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/czottmann/kagi-ken-mcp/issues"
+    "url": "https://github.com/rnavarro/kagi-ken-mcp/issues"
   },
-  "homepage": "https://github.com/czottmann/kagi-ken-mcp#readme"
+  "homepage": "https://github.com/rnavarro/kagi-ken-mcp#readme"
 }
