@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.0
         version: 1.17.2
       kagi-ken:
-        specifier: github:czottmann/kagi-ken#1.0.0
-        version: https://codeload.github.com/czottmann/kagi-ken/tar.gz/369f2a19c60525b3146360b063190466d2084d34
+        specifier: github:rnavarro/kagi-ken
+        version: https://codeload.github.com/rnavarro/kagi-ken/tar.gz/1c08a9ce17d249a7c26453f14daddbfd06066d2b
       zod:
         specifier: ^3.22.0
         version: 3.25.76
@@ -241,9 +241,10 @@ packages:
   json-schema-traverse@0.4.1:
     resolution: {integrity: sha512-xbbCH5dCYU5T8LcEhhuh7HJ88HXuW3qsI3Y0zOZFKfZEHcpWiHU/Jxzk629Brsab/mMiHQti9wMP+845RPe3Vg==}
 
-  kagi-ken@https://codeload.github.com/czottmann/kagi-ken/tar.gz/369f2a19c60525b3146360b063190466d2084d34:
-    resolution: {tarball: https://codeload.github.com/czottmann/kagi-ken/tar.gz/369f2a19c60525b3146360b063190466d2084d34}
-    version: 1.0.0
+  kagi-ken@https://codeload.github.com/rnavarro/kagi-ken/tar.gz/1c08a9ce17d249a7c26453f14daddbfd06066d2b:
+    resolution: {tarball: https://codeload.github.com/rnavarro/kagi-ken/tar.gz/1c08a9ce17d249a7c26453f14daddbfd06066d2b}
+    version: 1.2.0
+    engines: {node: '>=22.0.0'}
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -414,6 +415,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -721,7 +723,7 @@ snapshots:
 
   json-schema-traverse@0.4.1: {}
 
-  kagi-ken@https://codeload.github.com/czottmann/kagi-ken/tar.gz/369f2a19c60525b3146360b063190466d2084d34:
+  kagi-ken@https://codeload.github.com/rnavarro/kagi-ken/tar.gz/1c08a9ce17d249a7c26453f14daddbfd06066d2b:
     dependencies:
       cheerio: 1.1.2
 
